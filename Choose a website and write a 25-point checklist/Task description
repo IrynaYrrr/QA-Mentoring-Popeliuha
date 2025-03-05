@@ -1,1 +1,9 @@
+Task № 2.
 
+To do: 
+	2. Choose a website that you will be testing in all upcoming lessons. It should be an online store.
+Write a 25-point checklist.
+
+Do not test login and registration, but focus on testing the shopping cart and product functionality.
+
+Don’t forget to use negative testing (enter unexpected text, special characters, etc.).
