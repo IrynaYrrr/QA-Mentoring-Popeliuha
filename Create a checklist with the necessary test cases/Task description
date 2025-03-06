@@ -1,0 +1,18 @@
+Task № 10.
+
+To do: 
+     The web application has a registration form with fields: first name, last name, username, password, repeat password, and a “Register” button. Create a checklist with the necessary test cases.
+
+Requirements:
+
+a) First name and Last name should contain only Latin letters or Cyrillic characters. The only allowed special character is a hyphen (e.g., Anna-Maria).
+
+b) Username can consist of Latin letters and numbers only. Special characters are not allowed.
+
+c) Password must be between 10 and 20 characters, containing at least:
+	•	1 digit
+	•	1 uppercase letter
+	•	1 special character
+Non-English letters are not allowed in the password.
+
+d) Repeat password must be identical to the password, including case sensitivity (paSSword and PassWord are considered different passwords).
