@@ -1,0 +1,14 @@
+Task № 29
+
+To do: 
+      In databases, create tables, establish relationships between them, and populate them with data. Requirements:
+
+a) Universities table with columns Id, UniName, City. At least one university name must contain the letter “U” (e.g., LNU, CNU).
+
+b) Faculties table with columns Id, Name, UniversityId (linked with a foreign key to the Universities table).
+
+c) Groups table with columns Id, GroupNumber, FacultyId (linked with a foreign key to the Faculties table). When filling in the data, consider that group numbers depend on the course. The first digit of the group always indicates the course (e.g., 1st year = 102, 103, etc.). Create one or two groups for each course (1st to 5th year).
+
+d) Students table with columns Id, Name, Surname, Age, GroupId (linked with a foreign key to the Groups table). Ensure that at least one student has the name “Ivan”.
+
+e) Provide the result as a screenshot.
