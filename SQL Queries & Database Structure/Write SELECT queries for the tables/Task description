@@ -1,0 +1,12 @@
+Task № 30
+
+To do:  
+      Write SELECT queries for the tables:
+
+a) Select all fields from the Universities table.
+b) Select only the first names and surnames of students.
+c) Select only those students whose name is “Ivan”.
+d) Select only those groups where the group number is greater than 300.
+e) Select only those universities whose name contains the letter “U”.
+
+Provide the result as a screenshot.
