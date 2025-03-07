@@ -1,0 +1,5 @@
+Task № 27
+
+To do: 
+     Add tests in Postman to verify that the request returns a 200/404 status and that the username is present in the response body of one of the requests.
+     Provide the result as a screenshot
