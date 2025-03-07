@@ -1,0 +1,20 @@
+Task № 34
+
+To do:
+     Write the following SQL queries (Do not use MySQL):
+a) There is an imaginary table Workers (id, name, hireDate (hire date), profession).
+Retrieve all Testers from the Workers table, sorted by hire date.
+b) Retrieve the last 5 hired Testers from the Workers table.
+
+
+SOLUTION:
+
+a) Retrieve all Testers from the Workers table, sorted by hire date.
+
+SELECT * FROM Workers WHERE profession = 'QA' ORDER BY hireDate ASC;
+
+
+b) Retrieve the last 5 hired Testers from the Workers table.
+
+SELECT * FROM Workers WHERE profession = 'QA' ORDER BY hireDate DESC LIMIT 5;
+
