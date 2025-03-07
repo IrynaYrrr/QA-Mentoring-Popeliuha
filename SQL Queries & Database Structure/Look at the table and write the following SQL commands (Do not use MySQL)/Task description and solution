@@ -1,0 +1,42 @@
+Task № 33
+
+To do: 
+     Write the following SQL queries (Do not use MySQL):
+
+a) Retrieve the phone number and address of the user “Muzik”.
+b) Get all users whose name ends with “A”.
+c) Retrieve data of users whose order amount exceeds 2000 UAH.
+d) Count the number of orders in the table.
+e) Calculate the total sum of all orders.
+
+
+
+SOLUTION: 
+
+a) Retrieve the phone number and address of the user “Muzik”
+
+SELECT phone, address FROM User WHERE name = 'Muzik';
+
+
+b) Get all users whose name ends with “A”
+
+SELECT * FROM User WHERE name LIKE '%A';
+
+
+c) Retrieve data of users whose order amount exceeds 2000 UAH
+
+SELECT * FROM User LEFT JOIN Order ON Order.Id = User.Id WHERE Order.sum > 2000;
+
+
+d) Count the number of orders in the table
+
+SELECT COUNT(id) FROM Order;
+
+
+e) Calculate the total sum of all orders
+
+SELECT SUM(sum) FROM Order;
+
+
+
+
