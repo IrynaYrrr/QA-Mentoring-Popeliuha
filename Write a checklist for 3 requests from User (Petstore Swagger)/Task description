@@ -1,0 +1,8 @@
+Task № 28.
+
+To do: 
+    We have already learned to use the API, now we are learning to test it.
+    Write a checklist for 3 requests from User (Petstore Swagger):
+a) POST /user
+b) GET /user/{username}
+c) GET /user/login
